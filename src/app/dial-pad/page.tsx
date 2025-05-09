@@ -24,9 +24,6 @@ export default function DialPadPage() {
 
       {/* Dial Pad Section */}
       <section className="flex-1 flex items-center justify-center relative px-4 py-10 bg-[#0d1a59] text-white">
-        {/* Decorative Circle */}
-        <div className="absolute top-0 right-0 w-72 h-72 bg-[#2d00b3] rounded-full -translate-y-1/2 translate-x-1/4 z-0"></div>
-
         <div className="bg-[#17285d] p-6 rounded-xl shadow-lg max-w-md w-full relative z-10">
           <div className="text-center mb-6">
             <h2 className="text-2xl font-bold">Dial Pad</h2>

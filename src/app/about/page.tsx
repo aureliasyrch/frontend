@@ -22,9 +22,6 @@ export default function AboutPage() {
 
       {/* About Section */}
       <section className="flex-1 flex items-center justify-center relative px-4 py-10 bg-[#0d1a59] text-white">
-        {/* Decorative Circle */}
-        <div className="absolute top-0 right-0 w-72 h-72 bg-[#2d00b3] rounded-full -translate-y-1/2 translate-x-1/4 z-0"></div>
-
         <div className="relative z-10 max-w-4xl mx-auto w-full">
           <h2 className="text-3xl font-bold mb-8 text-center">About Ringi</h2>
 

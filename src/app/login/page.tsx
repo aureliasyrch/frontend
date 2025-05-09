@@ -18,14 +18,22 @@ export default function LoginPage() {
 
       {/* Login Section */}
       <section className="flex-1 flex items-center justify-center relative px-4 py-20 bg-[#0d1a59] text-white">
-        {/* Decorative Circle */}
-        <div className="absolute top-0 right-0 w-72 h-72 bg-[#2d00b3] rounded-full -translate-y-1/2 translate-x-1/4 z-0"></div>
-
         <div className="bg-[#17285d] p-8 rounded-xl shadow-lg max-w-md w-full relative z-10">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-2">Login</h2>
             <p className="text-sm text-gray-300">
               Enter your registered phone number
+            </p>
+          </div>
+
+          {/* Deskripsi Singkat */}
+          <div className="text-center text-sm text-gray-300 mb-6">
+            <p>
+              Ringi is a VoIP platform powered by Kamailio, enabling seamless
+              voice and video calls directly from your browser using UDP
+              protocol. Log in with your phone number and enjoy HD quality
+              communication, whether for voice calls, video calls, or
+              conferencing.
             </p>
           </div>
 
